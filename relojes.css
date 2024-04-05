@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .reloj {
+    text-align: center;
+  }
+  
+  .reloj-digital {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .reloj-analogico {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 10px solid #f681e4;
+    border-radius: 50%;
+  }
+  
+  .manecilla-horas,
+  .manecilla-minutos,
+  .manecilla-segundos {
+    position: absolute;
+    background: #936eba;
+  }
+  
+  .manecilla-horas {
+    width: 6px;
+    height: 60px;
+    top: 50px;
+    left: 97px;
+    transform-origin: 50% 100%;
+  }
+  
+  .manecilla-minutos {
+    width: 4px;
+    height: 80px;
+    top: 40px;
+    left: 98px;
+    transform-origin: 50% 100%;
+  }
+  
+  .manecilla-segundos {
+    width: 2px;
+    height: 90px;
+    top: 30px;
+    left: 99px;
+    transform-origin: 50% 100%;
+    background: #ff0000;
+  }
+  
